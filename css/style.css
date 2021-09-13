@@ -45,3 +45,26 @@ header {
 ul{
     padding: 20px;
 }
+
+/* table section */
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+thead{
+    background-color: #0099ff;
+    color: white;
+}
+
+.row_1_3{
+    background-color: #0099ff9d;
+}
+
+.cell_1_2{
+    width: 25%;
+}
+.cell_3{
+    width: 50%;
+}
+
