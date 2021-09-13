@@ -68,3 +68,27 @@ thead{
     width: 50%;
 }
 
+/* footer  */
+footer{
+    color: gray;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.suggestion{
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 13px;
+}
+
+.tip_1{
+    background-image: url(../img/monitor.jpg);
+}
+.tip_2{
+    background-image: url(../img/graph.jpg);
+}
