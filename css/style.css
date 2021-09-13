@@ -19,6 +19,7 @@ header {
 
 /* body section */
 
+/* Title and img section */
 .Title{
     font-weight: bold;
     font-size: 50px;
@@ -32,4 +33,15 @@ header {
 
 .Booleaner{
     color: #0099ff;
+}
+
+/* text section 1 */
+
+/* Highlighter text */
+.Highlighter{
+    background-color: rgb(215, 253, 0);
+}
+
+ul{
+    padding: 20px;
 }
