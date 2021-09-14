@@ -3,12 +3,24 @@
     font-size: 15px;
 }
 
+.container{
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+    padding: 5px;
+}
+
+body{
+    background-color: rgb(44, 42, 42);
+}
+
 /* header section */
 header {
     height: 130px;
     background-image: url(../img/pattern.png);
     background-color: #0099ff;
     background-size: 38%;
+    background-position: 67px 0;
 }
 
 .Logo{
@@ -19,31 +31,47 @@ header {
 
 /* body section */
 
+p{
+    margin: 20px 0;
+}
+
 /* Title and img section */
 .Title{
-    font-weight: bold;
-    font-size: 50px;
+    font-size: 47px;
     margin: 10px 0px;
 }
 
 .Author{
     color: gray;
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .Booleaner{
     color: #0099ff;
 }
 
+.Tim_1{
+    width: 400px;
+}
+.Tim_2{
+    width: 342px;
+}
+
+.info_img{
+    font-size: 13px;
+}
+
 /* text section 1 */
 
 /* Highlighter text */
 .Highlighter{
-    background-color: rgb(215, 253, 0);
+    background-color: #f0f922;
 }
 
 ul{
-    padding: 20px;
+    padding: 0 32px;
+    margin: 0 0 30px;
 }
 
 /* table section */
@@ -69,10 +97,10 @@ thead{
 }
 
 /* footer  */
-footer{
+.footer-title{
     color: gray;
-    font-weight: bold;
     margin-top: 30px;
+    font-size: 18px;
 }
 
 .suggestion{
@@ -80,15 +108,14 @@ footer{
     height: 180px;
     background-size: cover;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin: 20px 0;
+    font-size: 16px;
     padding: 13px;
 }
 
-.tip_1{
+#tip_1{
     background-image: url(../img/monitor.jpg);
 }
-.tip_2{
+#tip_2{
     background-image: url(../img/graph.jpg);
 }
